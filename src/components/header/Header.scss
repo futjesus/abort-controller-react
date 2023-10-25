@@ -1,0 +1,11 @@
+.Header {
+  @apply absolute inset-x-0 top-0 z-50;
+
+  &__nav {
+    @apply flex items-center justify-between p-6 lg:px-8;
+  }
+
+  &__logo {
+    @apply -m-1.5 p-1.5;
+  }
+}
